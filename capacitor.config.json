@@ -1,10 +1,13 @@
-import { CapacitorConfig } from '@capacitor/cli';
-
-const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'Mejid first app',
-  webDir: 'build',
-  bundledWebRuntime: false
-};
-
-export default config;
+{
+  "appId": "io.ionic.starter",
+  "appName": "Mejid first app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
